@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cursor Configuration - TV Optimized -->
+    <integer name="cursor_size">83</integer> <!-- Slightly bigger for better visibility on TV -->
+    <integer name="cursor_alpha">144</integer> <!-- 56.5% opaque for reduced visibility -->
+
+    <!-- Movement Configuration - Optimized for TV smoothness -->
+    <integer name="move_step">19</integer> <!-- Responsive base movement -->
+    <integer name="scroll_step">35</integer> <!-- Slower scrolling for better readability -->
+    <integer name="frame_delay">7</integer> <!-- ~143fps for ultra-smooth movement -->
+
+    <!-- Timing Configuration -->
+    <integer name="inactivity_timeout">11000</integer> <!-- 11 seconds for video cursor auto-hide -->
+    <integer name="battery_saver_threshold">3000</integer> <!-- 3 seconds before battery saver -->
+
+    <!-- Sensitivity Configuration -->
+    <integer name="acceleration_ramp_up">15</integer> <!-- Acceleration ramp-up rate (0-100) -->
+    <integer name="max_acceleration">250</integer> <!-- Max acceleration multiplier (100-400) -->
+
+    <!-- Cache Configuration -->
+    <integer name="cache_size_mb">50</integer>
+</resources>

@@ -1,0 +1,48 @@
+# Build outputs and generated files
+app/build/
+build/
+.gradle/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Sensitive files
+local.properties
+gradle.properties
+*.jks
+*.keystore
+secrets.properties
+api-keys.properties
+google-services.json
+GoogleService-Info.plist
+
+# Node modules (if any)
+node_modules/
+
+# Backup files
+*.bak
+*.backup
+*~

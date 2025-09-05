@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">pstream</string>
+    <string name="default_website_url">https://pstream.mov</string>
+</resources>
