@@ -1,22 +1,17 @@
-# Pstream - Android TV WebView App
+## A pstream wrapper for Android TV.
 
-A lean, optimized Android TV application that wraps streaming websites with enhanced D-pad navigation and visual cursor support.
+## Installation
 
-## Features
+To sideload the APK, it is recommended to use ADB
 
-- **Visual Cursor**: Custom white circle cursor controlled by D-pad for precise navigation
-- **Smooth Movement**: Battery-optimized cursor movement with configurable speed
-- **Video Detection**: Automatically hides cursor during video playback
-- **Input Field Support**: Cursor hides when typing in text fields, routes D-pad to text navigation
-- **Edge Scrolling**: Page scrolls when cursor reaches screen boundaries
-- **Immersive Mode**: Fullscreen experience optimized for TV
-- **Error Handling**: Retry dialogs for network issues
-- **Caching**: OkHttp with disk cache for improved video streaming performance
-- **Custom View Support**: Handles fullscreen video and custom web views
+- `adb install pstream-unofficial-wip.apk`
+- use the `adb shell input text "xyz"` command to enter long form text in Pstream settings.
+- enjoy and let me know if any issues!
+
 
 ## Configuration
 
-Movement and appearance can be customized in `app/src/main/res/values/config.xml`:
+Movement and appearance can be customized in `app/src/main/res/values/config.xml`: just rebuild in AStudio
 
 - `cursor_size`: Size of the visual cursor (default: 120px)
 - `cursor_alpha`: Transparency of cursor (default: 200/255)
@@ -58,7 +53,6 @@ Movement and appearance can be customized in `app/src/main/res/values/config.xml
 
 ## TV Optimization
 
-- Designed for Android TV with leanback launcher support
 - Landscape orientation forced for optimal viewing
 - Touchscreen features disabled for D-pad navigation
 - Hardware acceleration enabled for smooth performance
