@@ -1,6 +1,6 @@
-# Android TV Web App with Visual Cursor
+# [UNOFFICIAL] Pstream Wrapper for Android TV
 
-A production-ready Android TV application that wraps a movie website in a fullscreen WebView with a smooth, DPAD-controlled visual cursor system.
+support pstream[.]mov
 
 ## Features
 
@@ -62,7 +62,8 @@ A production-ready Android TV application that wraps a movie website in a fullsc
 
 ## Troubleshooting
 - **SEARCHING CONTENT**: When using the main search feature, sometimes it does not select the text input field properly: fix by double clicking in a fast succession until you the digital keyboard properly show
-- **FUNCTIONALITY** -- If the wrapper is slow, acting weird or otherwise: turn on Low Performance Mode in Pstream settings. 
+- **FUNCTIONALITY** -- If the wrapper is slow, acting weird or otherwise: turn on Low Performance Mode in Pstream settings.
+- **INSTALLATION**: Use ADB when possible for the smoothest experience, during initial setup you can use ``adb shell input text`` command for faster input.
 
 
 
