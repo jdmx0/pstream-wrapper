@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable tv_banner
+id root_container
+id webview
+integer accel_px_s2
+integer cache_size_mb
+integer cursor_core_radius_dp
+integer cursor_idle_timeout_ms
+integer cursor_ring_radius_dp
+integer edge_margin_dp
+integer friction_px_s2
+integer max_speed_px_s
+layout activity_main
+mipmap ic_launcher
+string app_name
+string default_website_url
+style Theme.App.Fullscreen

@@ -1,0 +1,31 @@
+<variant
+    name="release"
+    package="com.example.pstream"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    mergedManifest="build\intermediates\merged_manifest\release\processReleaseMainManifest\AndroidManifest.xml"
+    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android.txt-8.9.2"
+    partialResultsDir="build\intermediates\lint_vital_partial_results\release\lintVitalAnalyzeRelease\out"
+    desugaredMethodsFiles="C:\Users\jdm\.gradle\caches\8.11.1\transforms\e1dd1f76728b6fe0481770ca2b291a94\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\release\java;src\main\kotlin;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="build\intermediates\javac\release\compileReleaseJavaWithJavac\classes;build\tmp\kotlin-classes\release;build\kotlinToolingMetadata;build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\processReleaseResources\R.jar"
+      type="MAIN"
+      applicationId="com.example.pstream"
+      generatedSourceFolders="build\generated\ap_generated_sources\release\out;build\generated\source\buildConfig\release"
+      generatedResourceFolders="build\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\jdm\.gradle\caches\8.11.1\transforms\e1dd1f76728b6fe0481770ca2b291a94\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

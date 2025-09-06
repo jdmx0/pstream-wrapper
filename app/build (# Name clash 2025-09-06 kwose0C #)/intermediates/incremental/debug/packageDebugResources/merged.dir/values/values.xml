@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="accel_px_s2">4200</integer>
+    <integer name="cache_size_mb">50</integer>
+    <integer name="cursor_core_radius_dp">16</integer>
+    <integer name="cursor_idle_timeout_ms">8000</integer>
+    <integer name="cursor_ring_radius_dp">6</integer>
+    <integer name="edge_margin_dp">32</integer>
+    <integer name="friction_px_s2">4800</integer>
+    <integer name="max_speed_px_s">1400</integer>
+    <string name="app_name">pstream</string>
+    <string name="default_website_url">https://pstream.mov</string>
+    <style name="Theme.App.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

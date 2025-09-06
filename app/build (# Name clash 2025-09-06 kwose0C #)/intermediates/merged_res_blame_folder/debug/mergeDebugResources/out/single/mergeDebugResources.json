@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.example.pstream.app-debug-21:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.pstream.app-main-23:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.pstream.app-debug-21:/drawable_tv_banner.png.flat",
+        "source": "com.example.pstream.app-main-23:/drawable/tv_banner.png"
+    },
+    {
+        "merged": "com.example.pstream.app-debug-21:/layout_activity_main.xml.flat",
+        "source": "com.example.pstream.app-main-23:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pstream.app-debug-21:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.pstream.app-main-23:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.pstream.app-debug-21:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.pstream.app-main-23:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.pstream.app-debug-21:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.pstream.app-main-23:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.pstream.app-debug-21:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.pstream.app-main-23:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.pstream.app-debug-21:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.pstream.app-main-23:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.pstream.app-debug-21:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.pstream.app-main-23:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.pstream.app-debug-21:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.pstream.app-main-23:/mipmap-mdpi/ic_launcher.png"
+    }
+]

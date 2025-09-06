@@ -9,6 +9,21 @@ android {
     namespace = "com.example.pstream"
     compileSdk = 34
 
+    buildFeatures {
+        buildConfig = true
+    }
+
+
+    lint {
+        disable += "MissingTvBanner"
+    }
+
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+
     defaultConfig {
         applicationId = "com.example.pstream"
         minSdk = 21
@@ -17,6 +32,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "MOVIE_SITE_URL", "\"https://pstream.mov\"")
     }
 
     buildTypes {
@@ -26,11 +43,11 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "1.8"
     }
 }
 
